@@ -1,0 +1,8 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View id="exerciseButton_view">
+			<Label id="exerciseLabel"/>
+			<ImageView id="littleArrow_image"/>
+		</View>
+	</TableViewRow>	
+</Alloy>

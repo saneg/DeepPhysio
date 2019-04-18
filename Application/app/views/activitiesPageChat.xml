@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container">
+		<View id="upperBar">
+			<ImageView id="chatButton_image"/>
+			<Button id="chatButton" onClick="openChat"/>
+		</View>
+		<TableView id="tableView"/>
+		<View id="bottomBar">
+			<ImageView id="listButton_image"/>
+			<Button id="listButton" onClick="go2ListPage"/>
+			<ImageView id="doneButton_image"/>
+			<Button id="doneButton" onClick="go2DonePage"/>
+		</View>
+	</Window>
+</Alloy>

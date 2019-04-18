@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container">
+		<View id="upperBar">
+			<ImageView id="backButton_image"/>
+			<Button id="backButton" onClick="back"/>
+			<ImageView id="retryButton_image"/>
+			<Button id="retryButton"/>
+			<ImageView id="chatButton_image"/>
+			<Button id="chatButton" onClick="openChat"/>
+		</View>
+		<View id="body">
+			<VideoPlayer id='videoPlayer'/>
+		</View>
+		<ScrollView id="videoInfo">
+			<Label id="daEseguire">
+			</Label>
+			<Label id="eseguito">
+			</Label>
+		</ScrollView>	
+	</Window>
+</Alloy>

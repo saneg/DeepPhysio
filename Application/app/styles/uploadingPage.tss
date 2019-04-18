@@ -1,0 +1,9 @@
+
+".container": {
+	backgroundColor:'#d2d2d2'
+}
+
+"#activityIndicator":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}

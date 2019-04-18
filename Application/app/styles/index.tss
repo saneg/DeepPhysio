@@ -1,0 +1,76 @@
+".container": {
+	backgroundColor:'#f2f2f2'
+}
+
+"#contenitore":{
+	top: 0,
+	bottom: 0
+}
+
+"#logIn_contenitore":{
+	backgroundColor: 'white',
+	borderRadius: 5,
+	borderColor: '#ccc',
+	width: '80%',
+	height: '70%'
+}
+
+
+"#userID_label":{
+	color: 'black',
+	font: {fontSize: '14sp'},
+	text: 'User ID:',
+	left: '5%',
+	top: '35%'
+}
+"#userID_textField":{
+	top: '42.5%',
+	height: '7%',
+	left: '5%',
+	right: '23.5%',
+	keyboardType: Ti.UI.KEYBOARD_TYPE_DEFAULT,
+	borderRadius: 5,
+	borderColor: 'black',
+	backgroundColor: 'white',
+	font: {fontSize: '12sp'},
+	color: 'black',
+	passwordMask: false,
+	value: 'user_'
+}
+
+"#password_label":{
+	color: 'black',
+	font: {fontSize: '14sp'},
+	text: 'Password:',
+	left: '5%',
+	top: '55%'
+}
+"#password_textField":{
+	top: '62.5%',
+	height: '7%',
+	left: '5%',
+	right: '23.5%',
+	keyboardType: Ti.UI.KEYBOARD_TYPE_DEFAULT,
+	borderRadius: 5,
+	borderColor: 'black',
+	backgroundColor: 'white',
+	font: {fontSize: '12sp'},
+	color: 'black',
+	passwordMask: true,
+	value: 'deepPhysio'
+}
+
+
+"#logInButton_view":{
+	top: '83%',
+	height: '7%',
+	width: '23%',
+	backgroundColor: '#199dff',
+	borderRadius: 5,
+	borderColor: 'black'
+}
+"#logInButton_label":{
+	color: 'white',
+	font: {fontSize: '16sp'},
+	text: 'Log In'
+}

@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container">
+		<View id="contenitore">
+			<TableView id="tableArea" onClick='hideKeyboard'/>
+			<View id="textMessage_view">
+				<TextArea id="textMessage"/>
+				<View id="sendButton_view" onClick="sendMessage">
+					<Label id="sendButton_label"/>
+				</View>
+			</View>
+		</View>
+		<View id="upperBar">
+			<ImageView id="backButton_image"/>
+			<Button id="backButton" onClick="back"/>
+		</View>
+	</Window>
+</Alloy>

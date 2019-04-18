@@ -1,0 +1,23 @@
+
+
+"#row":{
+	height: Titanium.UI.SIZE
+}
+
+"#myBaloon":{
+	top: '1.5%',
+	right: '3%',
+	width: '60%',
+	borderColor: 'black',
+	borderRadius: 5,
+	backgroundColor: '#e7e7e7',
+	height: Titanium.UI.SIZE
+}
+"#myMessage":{
+	color: 'black',
+	font: {fontSize: '14sp'},
+	text: '',
+	top: '2.5%',
+	right: '4%',
+	left: '4%'
+}

@@ -1,0 +1,11 @@
+
+"#row":{
+	height: Titanium.UI.SIZE
+}
+
+"#date_label":{
+	color: 'black',
+	font: {fontSize: '14sp'},
+	text: '',
+	top: '5%'
+}

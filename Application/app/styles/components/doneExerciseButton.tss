@@ -1,0 +1,25 @@
+
+
+"#row":{
+	height: '13%'
+}
+
+
+"#doneExerciseButton_view": {
+	backgroundColor: '#e7e7e7',
+	borderColor: 'black',
+	borderRadius: 5,
+	left: '3%',
+	right: '3%',
+	height: '75%',
+}
+"#exerciseLabel":{
+	text: '',
+	left: '8%'
+}
+"#NNResult_image":{
+	image: "",
+	height: '55%',
+	width: '8.5%',
+	right: '5%'
+}

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" onClick="hideKeyboard">
+		<View id="contenitore">
+			<View id="logIn_contenitore">
+				<Label id="userID_label"/>
+				<TextField id="userID_textField"/>
+				<Label id="password_label"/>
+				<TextField id="password_textField"/>
+				<View id="logInButton_view" onClick="openActivities">
+					<Label id="logInButton_label"/>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

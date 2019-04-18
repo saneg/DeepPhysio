@@ -1,0 +1,67 @@
+".container": {
+	backgroundColor:"white"
+}
+
+
+"#upperBar": {
+	backgroundImage: "/images/upperBar.png",
+	top: '0%',
+	width: Ti.UI.FILL,
+	height: '11.5%'
+}
+
+"#chatButton_image": {
+	image: "/images/chatButton.png",
+	height: '40%',
+	width: '8%',
+	right: '5%',
+	bottom: '15%'
+}
+"#chatButton": {
+	height: '40%',
+	width: '8%',
+	right: '5%',
+	bottom: '15%'
+}
+
+
+"#tableView": {
+	width: Ti.UI.FILL,
+	height: '80.3%',
+	top: '11.5%',
+	separatorStyle: "none",
+	selectionStyle: "none"
+}
+
+
+"#bottomBar": {
+	backgroundImage: "/images/bottomBar.png",
+	bottom: '0%',
+	width: Ti.UI.FILL,
+	height: '8.5%'
+}
+
+"#listButton_image": {
+	image: "/images/listButton_pressed.png",
+	height: '70%',
+	width: '11%',
+	left: '19.5%'
+}
+"#listButton": {
+	enabled: false,
+	height: '70%',
+	width: '11%',
+	left: '19.5%'
+}
+
+"#doneButton_image": {
+	image: "/images/doneButton.png",
+	height: '70%',
+	width: '11%',
+	right: '19.5%'
+}
+"#doneButton": {
+	height: '70%',
+	width: '11%',
+	right: '19.5%'
+}

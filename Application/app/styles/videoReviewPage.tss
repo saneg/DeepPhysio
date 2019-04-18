@@ -1,0 +1,92 @@
+".container": {
+	backgroundColor:"white",
+}
+
+
+"#upperBar": {
+	backgroundImage: "/images/upperBar.png",
+	top: '0%',
+	width: Ti.UI.FILL,
+	height: '11.5%'
+}
+"#backButton_image": {
+	image: "/images/backButton.png",
+	height: '40%',
+	width: '8%',
+	left: '5%',
+	bottom: '15%'
+}
+"#backButton": {
+	height: '40%',
+	width: '8%',
+	left: '5%',
+	bottom: '15%'
+}
+"#retryButton_image": {
+	image: "/images/retryButton.png",
+	height: '38.5%',
+	width: '7.5%',
+	right: '5%',
+	bottom: '15%'
+}
+"#retryButton": {
+	height: '38.5%',
+	width: '7.5%',
+	right: '5%',
+	bottom: '15%'
+}
+"#chatButton_image": {
+	image: "/images/chatButton.png",
+	height: '40%',
+	width: '8%',
+	right: '18%',
+	bottom: '15%'
+}
+"#chatButton": {
+	height: '40%',
+	width: '8%',
+	right: '18%',
+	bottom: '15%'
+}
+
+
+
+
+"#body": {
+	top: '11.5%',
+	width: Ti.UI.FILL
+}
+"#videoPlayer": {
+	backgroundColor: 'black',
+	url: "",
+	top: '1%',
+	width: Ti.UI.FILL,
+	height: '41%',
+	autoplay: false,
+	
+	representedActivity: ''
+}
+
+
+
+
+"#videoInfo":{
+	layout: 'vertical',
+	top: '52%',
+	width: Ti.UI.FILL,
+	showVerticalScrollIndicator: true	
+}
+
+"#daEseguire":{
+	top: '5%',
+	left: '5%',
+	right: '5%',
+	height: Ti.UI.SIZE
+}
+
+"#eseguito":{
+	top: '8%',
+	left: '5%',
+	right: '5%',
+	height: Ti.UI.SIZE
+}

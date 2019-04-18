@@ -1,0 +1,74 @@
+".container": {
+	backgroundColor:"white"
+}
+
+
+"#upperBar": {
+	backgroundImage: "/images/upperBar.png",
+	top: '0%',
+	width: Ti.UI.FILL,
+	height: '11.5%'
+}
+"#backButton_image": {
+	image: "/images/backButton.png",
+	height: '40%',
+	width: '8%',
+	left: '5%',
+	bottom: '15%'
+}
+"#backButton": {
+	height: '40%',
+	width: '8%',
+	left: '5%',
+	bottom: '15%'
+}
+
+
+
+
+
+"#contenitore":{
+	top: 0,
+	bottom: 0,
+}
+"#tableArea": {
+	width: Ti.UI.FILL,
+	height: '80.3%',
+	top: '11.5%',
+	separatorStyle: "none",
+	selectionStyle: "none"
+}
+
+
+
+
+"#textMessage_view":{
+	backgroundImage: "/images/bottomBar.png",
+	bottom: '0%',
+	width: Ti.UI.FILL,
+	height: '8.5%'
+}
+"#textMessage":{
+	height: '65%',
+	left: '3%',
+	right: '23.5%',
+	keyboardType: Ti.UI.KEYBOARD_TYPE_DEFAULT,
+	borderRadius: 5,
+	borderColor: 'black',
+	backgroundColor: 'white',
+	font: {fontSize: '12sp'},
+	color: 'black'
+}
+"#sendButton_view":{
+	height: '65%',
+	right: '3%',
+	left: '80%',
+	backgroundColor: '#199dff',
+	borderRadius: 5,
+	borderColor: 'black'
+}
+"#sendButton_label":{
+	color: 'white',
+	font: {fontSize: '16sp'},
+	text: 'Send'
+}

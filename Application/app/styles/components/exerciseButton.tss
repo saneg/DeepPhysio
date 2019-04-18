@@ -1,0 +1,24 @@
+
+
+"#row":{
+	height: '13%'
+}
+
+"#exerciseButton_view": {
+	backgroundColor: '#e7e7e7',
+	borderColor: 'black',
+	borderRadius: 5,
+	left: '3%',
+	right: '3%',
+	height: '75%'
+}
+"#exerciseLabel":{
+	text: '',
+	left: '8%'
+}
+"#littleArrow_image":{
+	image: "/images/littleArrow.png",
+	height: '55%',
+	width: '11%',
+	right: '5%'
+}
