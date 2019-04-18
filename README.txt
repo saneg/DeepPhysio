@@ -6,7 +6,7 @@ This repository contains all the files that were producted during "DeepPhysio" d
 
 In folder "Application" are collected all the files that have been built for the mobile app. 
 "DeepPhysio" app has been design and developed using Appcelerator Titanium framework with "Appcelerator Studio" as IDE.
-I recommend the use of these technology in order to further develop "DeepPhysio" project, copying all the files in "Application" folder in the  
+I recommend the use of these technology in order to further develop "DeepPhysio" project, copying all the files in "Application" folder in the new created project.  
 Besides, in order to allow the communication between the app and the server, the appcelerator-module "Titanium Socket.io" was used downloading it from the related GitHub repository.
 
 
